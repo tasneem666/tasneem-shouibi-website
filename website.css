@@ -158,6 +158,7 @@ label {
 }
 
 .img {
+    display: inline;
     object-fit: cover;
     object-position: bottom;
     width: 300px;
