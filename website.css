@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    height: 1000px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+    margin: 0 40px;
+}
+
+.active {
+
+    color: #D1884F;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: end;
+
+    padding-top: 50px;
+    padding-right: 50px;
+
+
+}
+
+.nav-links {
+    display: flex;
+
+
+}
+
+.nav-links i {
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.About text {
+    color: #3BBADB;
+    font-size: 4vmin;
+    font-size: 20px;
+}
+
+.About h1 {
+    color: #008AAA;
+
+    font-size: 4vmin;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    width: 450px;
+}
+
+.Desiner {
+    color: #D1884F;
+
+}
+
+p {
+    font-size: 13px;
+    font-weight: 500;
+    width: 480px;
+
+}
+
+#check {
+    display: none;
+}
+
+.par {
+    display: none;
+    transition: .5s linear;
+
+}
+
+label {
+
+    color: #3BBADB;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+
+}
+
+#check:checked~.par {
+    display: block;
+
+}
+
+#check:checked~label {
+    visibility: hidden;
+}
+
+#check:checked~label:after {
+    content: 'Show Less';
+    display: block;
+    visibility: visible;
+}
+
+.hire-me {
+    background-color: rgb(17, 123, 165);
+
+    font-size: 15px;
+    color: whitesmoke;
+
+    padding: 2px 14px;
+
+    border: none;
+    border-radius: 3px;
+
+    margin-right: 12px;
+    transition: .6s;
+
+}
+
+.hire-me:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 0 #008AAA;
+}
+
+.my-project {
+    background-color: white;
+
+    font-size: 15px;
+    color: #008AAA;
+
+    padding: 2px 14px;
+
+    border-color: #008AAA;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    transition: .6s;
+
+}
+
+.my-project:hover {
+
+    cursor: pointer;
+    box-shadow: 0 2px 0 rgba(84, 168, 247, 0.29);
+}
+
+.img {
+    object-fit: cover;
+    object-position: bottom;
+    width: 300px;
+    height: 300px;
+
+    border-bottom-left-radius: 150px;
+    margin-left: 60px;
+    position: relative;
+
+}
+
+.shadow {
+    background-color: #3BBADB;
+    width: 300px;
+    height: 270px;
+    border-bottom-left-radius: 150px;
+    position: absolute;
+
+    top: 200px;
+    right: 270px;
+}
