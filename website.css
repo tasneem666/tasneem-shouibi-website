@@ -132,7 +132,7 @@ label {
 
 .hire-me:hover {
     cursor: pointer;
-    box-shadow: 0 4px 0 #008AAA;
+    box-shadow: 0 4px 0 rgba(84, 168, 247, 0.29);
 }
 
 .my-project {
